@@ -1,6 +1,6 @@
 # RandomMazeEnvironment
 
-When I read the paper [Large-Scale Study of Curiosity-Driven Learning] and wanted to test the agent in MazeEnvironment, I couldn't find this environment. So I make it by myself.  
+When I read the paper [Large-Scale Study of Curiosity-Driven Learning](https://openreview.net/forum?id=rJNwDjAqYX) and want to test the agent in MazeEnvironment, I can't find this environment. So I make it by myself.  
 
 This environment is a 5*5 maze, and it is randomly generated using DFS algorithm. When the agent reach the goal, it will get 1.0 reward. Then the maze will be re-generated, and the position of the agent and the goal will be reset. There are 2 version of the maze, with noisyTV (in 'RandonMaze' folder) and without noisyTV (in 'RandomMazeTV' folder).  
 
